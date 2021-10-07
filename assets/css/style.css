@@ -1253,6 +1253,10 @@ footer .link {
     padding: 72px 0 195px;
 }
 
+#faq-section.padding-sm {
+    padding: 66px 0 94px;
+}
+
 
 #faq-section .card-header {
     padding: 0;
@@ -1590,20 +1594,29 @@ footer .link {
 
 
 /* Empty Leg Section */
-#empty-legs-section .section-header-secondary p{
+#empty-legs-section .section-header-secondary p {
     max-width: 316px;
     width: 100%;
 }
 
-#empty-legs-section .section-header-secondary{
+#empty-legs-section .section-header-secondary {
     padding: 66px 0 31px;
+}
+
+#empty-legs-section .empty-legs-wrpr {
+    background: #FBFBFB;
+}
+
+#empty-legs-section .filter-form-box {
+    background:  #fff;
 }
 
 #empty-legs-section .filter-form-box .primary-inputs {
     border: 1px solid #F2F2F2;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    margin-bottom: 26px;
+    margin-bottom: 30px;
+    margin-top: -30px;
 }
 
 #empty-legs-section .filter-form-box .primary-inputs .input-item {
@@ -1710,10 +1723,15 @@ footer .link {
     color: #000000;
 }
 
+#empty-legs-section .empty-legs-box {
+    margin-bottom: 60px;
+}
+
 #empty-legs-section .table-responsive {
     background: #fff;
     padding: 0 25px;
-    margin-bottom: 45px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 11px;
 }
 
 #empty-legs-section .table-responsive table {
@@ -1777,6 +1795,7 @@ footer .link {
     max-width: 682px;
     width: 100%;
     margin-bottom: 68px;
+    color: #000000;
 }
 
 
@@ -1808,49 +1827,57 @@ footer .link {
 
 
 /* pets Importent Section */
-#pets-importent-section {
+#pets-important-section {
     padding: 104px 0 96px;
 }
 
-#pets-importent-section .importent-info {
+#pets-important-section .important-info {
     max-width: 390px;
     width: 100%;
 }
 
-#pets-importent-section .importent-info ul {
+#pets-important-section .important-info ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#pets-importent-section .importent-info ul li {
+#pets-important-section .important-info ul li {
     padding-left: 58px;
     position: relative;
     margin-bottom: 35px;
     line-height: 24px;
 }
 
-#pets-importent-section .importent-info ul li:last-child {
+#pets-important-section .important-info ul li:last-child {
     margin-bottom: 0;
 }
 
-#pets-importent-section .importent-info ul li img {
+#pets-important-section .important-info ul li img {
     font-size: 22px;
     position: absolute;
     top: 3px;
     left: 5px;
 }
 
-#pets-importent-section .imortent-text-box {
+#pets-important-section .imortant-text-box {
     width: 404px;
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
 }
 
-#pets-importent-section .imortent-text-box p{
+#pets-important-section .imortant-text-box p{
     margin: 0;
     font-size: 17px;
     color: #2F3640;
     padding: 80px 63px 55px 63px;
+}
+
+#pets-important-section .section-header-secondary {
+    margin-bottom: 52px;
+}
+
+#pets-important-section .section-header-secondary h3{
+    padding-bottom: 32px;
 }

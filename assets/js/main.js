@@ -3,7 +3,12 @@
 
     jQuery(document).ready(function($){
 
-
+    	// Slicknav
+		$('#main-menu').slicknav({
+	        closeOnClick: true,
+	        label: '',
+	        appendTo:'.mobile-menu',
+	    });
 
 		// destinations-isotop
 		$('.destinations-list').isotope({
@@ -41,19 +46,11 @@
             }
         });
 
-    	// Slicknav
-		$('#main-menu').slicknav({
-	        closeOnClick: true,
-	        label: '',
-	        appendTo:'.mobile-menu',
-	    });
-
 		// Booking Form Date Picker
 	    $('#datePicker').datetimepicker({
             timepicker:false,
             format:'d.m.Y'
         });
-
 
 	    // Booking Form Passenger Plus Minus
         function incrementValue(e) {
