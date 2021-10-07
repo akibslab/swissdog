@@ -333,6 +333,33 @@
 	#blog-section .blog-item {
 		margin-bottom: 50px;
 	}
+
+	#empty-legs-section .filter-form-box .primary-inputs {
+	    border: none;
+	    box-shadow: none;
+	}
+
+	#empty-legs-section .filter-form-box .primary-inputs .input-item {
+	    width: 100%;
+	    border-right: none;
+	    border: 1px solid #F2F2F2;
+	    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+	    margin-bottom: 10px;
+	    padding: 5px 10px;
+	    min-height: 50px;
+	}
+
+	#empty-legs-section .section-header-secondary {
+	    padding: 33px 0 15px;
+	}
+
+	#empty-legs-section .empty-legs-box {
+	    margin-bottom: 30px;
+	}
+
+	#faq-section.padding-sm {
+	    padding: 33px 0 47px;
+	}
 }
 
 
