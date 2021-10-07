@@ -16,6 +16,15 @@
 	#intro-section .intor-featured-box {
 		margin-top: 50px;
 	}
+
+	#featured-section .featured-image-box .featured-drawer-btn.btn-2 {
+	    left: 221px;
+	}
+
+	#featured-section .featured-image-box .featured-drawer-btn.btn-4 {
+	    top: 50px;
+	    left: 629px;
+	}
 }
 
 
@@ -270,8 +279,59 @@
 	    padding-left: 15px;
 	}
 
+	#featured-section {
+	    padding: 30px 0 100px;
+	}
+
+	#featured-section .featured-image-box {
+	    max-width: 345px;
+	}
+
+	#featured-section .featured-image-box .featured-drawer-btn {
+		width: 15px;
+		height: 15px;
+	}
+
+	#featured-section .featured-image-box .featured-drawer-btn.btn-1 {
+	    top: 65px;
+	    left: 38px;
+	}
+
 	#featured-section .featured-image-box .featured-drawer-btn.btn-2 {
-	    left: 221px;
+	    top: 46px;
+	    left: 103px;
+	}
+
+	#featured-section .featured-image-box .featured-drawer-btn.btn-3 {
+	    top: 62px;
+	    left: 192px;
+	}
+
+	#featured-section .featured-image-box .featured-drawer-btn.btn-4 {
+	    top: 23px;
+	    left: 292px;
+	}
+
+	.featured-drawer {
+	    width: 300px;
+	    transform: translateX(300px);
+	}
+
+	.featured-drawer .text-box h4 {
+	    font-size: 20px;
+	    margin-bottom: 30px;
+	}
+
+	.featured-drawer .text-box p {
+	    font-size: 14px;
+	}
+
+	#blog-section {
+	    padding: 33px 0 10px;
+	}
+
+	#blog-section .blog-item {
+		margin-bottom: 50px;
 	}
 }
 
