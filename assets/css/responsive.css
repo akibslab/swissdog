@@ -12,6 +12,10 @@
 	#cta-primary-section .cta-box {
 		width: 100%;
 	}
+
+	#intro-section .intor-featured-box {
+		margin-top: 50px;
+	}
 }
 
 
@@ -41,6 +45,10 @@
 
 	.section-header-secondary {
 	    margin-bottom: 25px;
+	}
+
+	.section-header-primary {
+	    margin-bottom: 20px;
 	}
 
 	header .menu {
@@ -162,6 +170,109 @@
 	#faq-section .section-header-secondary {
 	    margin-bottom: 40px;
 	}
+
+	#hero-section {
+		padding: 50px 0 25px;
+	}
+
+	#hero-section .top-area h1 {
+		font-size: 45px;
+	}
+
+	#hero-section .top-area {
+	    margin-bottom: 35px;
+	}
+
+	#hero-section .booking-form-box .primary-inputs .inputs-wrpr, #hero-section .booking-form-box .primary-inputs .button-wrpr {
+		width: 100%;
+	}
+
+	#hero-section .booking-form-box {
+	    max-width: 904px;
+	    width: 100%;
+	    margin: 0 auto;
+	    background: #FFFFFF;
+	    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+	    border-radius: 11px;
+	    padding: 16px 17px 24px;
+	}
+
+	#hero-section .booking-form-box .primary-inputs .input-item {
+	    width: 100%;
+	    border-right: none;
+	    border: 1px solid #F2F2F2;
+	    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+	    margin-bottom: 10px;
+	    padding: 5px 10px;
+	    min-height: 50px;
+	}
+
+	#hero-section .booking-form-box .primary-inputs .button-wrpr a {
+		border-radius: 0;
+	}
+
+	#intro-section {
+	    padding: 25px 0 65px;
+	}
+
+	#intro-section .intro-content-box img {
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#intro-section .intor-featured-box {
+		margin-top: 50px;
+	}
+
+	#intro-section .intor-featured-box .image-box {
+	    margin-bottom: 20px;
+	}
+
+	#intro-section .intor-featured-box .intro-featured-item {
+		margin-bottom: 50px;
+	}
+
+	#the-fleet-section {
+	    padding: 50px 0 0;
+	}
+
+	#the-fleet-section .owl-carousel {
+	    margin-bottom: 50px;
+	}
+
+	#the-fleet-section .the-fleet-featured-item {
+	    text-align: center;
+	}
+
+	#the-fleet-section .the-fleet-featured-item .number {
+	    margin-bottom: 10px;
+	}
+
+	#the-fleet-section .the-fleet-featured-item {
+	    margin-bottom: 50px;
+	}
+
+	#upcoming-legs-section {
+	    padding: 40px 0 45px;
+	}
+
+	#short-faq-section {
+	    padding: 50px 0 80px;
+	}
+
+	#short-faq-section .short-faq-box .odd {
+	    padding-right: 15px;
+	}
+
+	#short-faq-section .short-faq-box .even {
+	    padding-left: 15px;
+	}
+
+	#featured-section .featured-image-box .featured-drawer-btn.btn-2 {
+	    left: 221px;
+	}
 }
 
 
@@ -180,5 +291,13 @@
 
 	#contact-us-section .info-box {
 		margin-bottom: 0;
+	}
+
+	#intro-section .intor-featured-box .intro-featured-item {
+		margin-bottom: 0;
+	}
+
+	#the-fleet-section {
+	    padding: 50px 0 40px;
 	}
 }
