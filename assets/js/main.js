@@ -96,7 +96,6 @@
 		$(document).mouseup(function(e) 
 		{
 		    var container = $('.booking-form-box .primary-inputs .select-primary-dropdown');
-
 		    // if the target of the click isn't the container nor a descendant of the container
 		    if (!container.is(e.target) && container.has(e.target).length === 0) 
 		    {
@@ -128,6 +127,18 @@
 	    	$('.featured-drawer').removeClass('active');
 	    	$('#drawer-'+$(this).attr('data-index')).addClass('active');
 	    	$('body').addClass('overlay');
+
+	    	$(document).mouseup(function(e) 
+		{
+		    var container = $('.featured-drawer');
+		    // if the target of the click isn't the container nor a descendant of the container
+		    if (!container.is(e.target) && container.has(e.target).length === 0) 
+		    {
+		        $('.featured-drawer').removeClass('active');
+		        $('body').removeClass('overlay');
+		    }
+		});
+
 	    });
 
 	    $('.featured-drawer .cross').on('click',function(e){
@@ -135,6 +146,8 @@
 	    	$(this).parents('.featured-drawer').removeClass('active');
 	    	$('body').removeClass('overlay');
 	    });
+
+	    
 
         
     });
