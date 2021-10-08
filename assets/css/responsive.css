@@ -25,6 +25,18 @@
 	    top: 50px;
 	    left: 629px;
 	}
+
+	#pets-heighlight-section .pet-heighlight-box {
+		max-width: 450px;
+	}
+
+	#pets-heighlight-section .pet-heighlight-box ul {
+		padding: 55px 62px 85px 43px;
+	}
+
+	.image-style-box .image-style-image {
+		left: 285px;
+	}
 }
 
 
@@ -359,6 +371,87 @@
 
 	#faq-section.padding-sm {
 	    padding: 33px 0 47px;
+	}
+
+	#pets-intro-section {
+	    padding: 40px 0 15px;
+	}
+
+	#pets-heighlight-section {
+	    padding: 20px 0 25px;
+	}
+
+	.image-style-box {
+		margin-top: 0;
+		position: initial;
+		max-width: 500px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#pets-heighlight-section .pet-heighlight-box ul {
+		padding: 50px;
+	}
+
+	.image-style-box .image-style-image {
+		position: initial;
+		margin-top: 25px;
+	}
+
+	#pets-important-section {
+	    padding: 25px 0 55px;
+	}
+
+	#pets-important-section .section-header-secondary {
+	    margin-bottom: 26px;
+	}
+
+	#pets-important-section .important-info ul li {
+		margin-bottom: 20px;
+	}
+
+	#pets-important-section .important-info {
+		margin-bottom: 25px;
+	}
+
+	#pets-important-section .imortant-text-box {
+		padding: 50px;
+	}
+
+	#faq-section {
+	    padding: 18px 0 50px;
+	}
+
+	#faq-section .section-header-secondary {
+	    margin-bottom: 20px;
+	}
+
+	#concierge-services-section {
+	    padding: 33px 0 25px;
+	}
+
+	#concierge-services-section .section-header-secondary {
+	    margin-bottom: 65px;
+	}
+
+	#concierge-services-section .concierge-services-item {
+	    margin-bottom: 40px;
+	}
+
+	#concierge-services-section .concierge-services-item .icon {
+	    margin-bottom: 16px;
+	}
+
+	#concierge-services-section .concierge-services-item h5 {
+	    margin-bottom: 13px;
+	}
+
+	#cta-primary-section.style-2 .cta-box {
+	    margin-top: 25px;
+	}
+
+	#concierge-services-section.padding-lg {
+	    padding: 65px 0 80px;
 	}
 }
 
