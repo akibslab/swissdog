@@ -1257,10 +1257,14 @@ footer .link {
     padding: 66px 0 94px;
 }
 
+#faq-section.padding-lg {
+    padding: 115px 0 215px;
+}
 
 #faq-section .card-header {
     padding: 0;
     background: none;
+    border-bottom:  none;
 }
 
 #faq-section .card-header h5 {
@@ -1271,6 +1275,11 @@ footer .link {
 
 #faq-section .card {
     border: none;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+#faq-section .card:first-of-type {
+    border-top: 1px solid #F0F0F0;
 }
 
 #faq-section .card-header span {
@@ -1280,10 +1289,6 @@ footer .link {
     position: absolute;
     top: 27px;
     left: 5px;
-}
-
-#faq-section .section-header-secondary {
-    margin-bottom: 80px;
 }
 
 
@@ -1778,9 +1783,10 @@ footer .link {
     margin-left: 10px;
 }
 
+
 /* Pets Intor Section */
-#pets-intro--section .section-header-secondary {
-    padding: 66px 0 57px;
+#pets-intro-section {
+    padding: 85px 0 30px;
 }
 
 #pets-intro-section .section-header-secondary {
@@ -1794,12 +1800,15 @@ footer .link {
 #pets-intro-section .pet-intro-box {
     max-width: 682px;
     width: 100%;
-    margin-bottom: 68px;
     color: #000000;
 }
 
 
 /* Pets Heighlight Section */
+#pets-heighlight-section {
+    padding: 40px 0 55px;
+}
+
 #pets-heighlight-section .pet-heighlight-box {
     background: #D83333;
     color: #fff;
@@ -1810,7 +1819,7 @@ footer .link {
 #pets-heighlight-section .pet-heighlight-box ul {
     list-style: none;
     margin: 0;
-    padding: 60px 77px 95px 58px;
+    padding: 70px 77px 110px 58px;
     font-size: 20px;
     line-height: 119%;
     letter-spacing: 0.015em;
@@ -1825,10 +1834,23 @@ footer .link {
     border-bottom: none;
 }
 
+.image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+.image-style-box .image-style-image {
+    position: absolute;
+    top: -115px;
+    left: 375px;
+    z-index: -1;
+}
+
 
 /* pets Importent Section */
 #pets-important-section {
-    padding: 104px 0 96px;
+    padding: 55px 0 115px;
 }
 
 #pets-important-section .important-info {
@@ -1861,23 +1883,20 @@ footer .link {
 }
 
 #pets-important-section .imortant-text-box {
-    width: 404px;
+    max-width: 404px;
+    width: 100%;
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
+    padding: 80px 63px 55px 63px;
 }
 
 #pets-important-section .imortant-text-box p{
     margin: 0;
     font-size: 17px;
     color: #2F3640;
-    padding: 80px 63px 55px 63px;
 }
 
 #pets-important-section .section-header-secondary {
     margin-bottom: 52px;
-}
-
-#pets-important-section .section-header-secondary h3{
-    padding-bottom: 32px;
 }
