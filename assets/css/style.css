@@ -88,6 +88,11 @@ h4.barlow {
     letter-spacing: -0.055em;
 }
 
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .btn-icon-left {
     margin-right: 2px;
 }
@@ -240,6 +245,11 @@ h4.barlow {
     font-family: Barlow;
     font-weight: 400;
     letter-spacing: -0.055em;
+}
+
+.section-header-secondary .lead {
+    font-size: 20px;
+    color: #000000;
 }
 
 .section-header-secondary p {
@@ -601,7 +611,6 @@ header .mobile-menu {
 /* CTA Primary Section */
 #cta-primary-section {
     color: #fff;
-    background-image: url(../img/cta-primary/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -647,6 +656,13 @@ header .mobile-menu {
     right: 8;
 }
 
+#cta-primary-section .quote-box h3 {
+    color: #FFFFFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
 #cta-primary-section .quote-box span {
     font-family: Poppins;
     font-size: 14px;
@@ -657,8 +673,21 @@ header .mobile-menu {
     padding-left: 15px;
 }
 
+#cta-primary-section.style-2 .quote-box span {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #898989;
+    padding-left: 2px;
+}
+
 #cta-primary-section .cta-box {
     margin-top: 65px;
+}
+
+#cta-primary-section.style-2 .cta-box {
+    margin-top: 5px;
 }
 
 #cta-primary-section .cta-box h4 {
@@ -1267,10 +1296,12 @@ footer .link {
     border-bottom:  none;
 }
 
-#faq-section .card-header h5 {
+#faq-section .card-header h4 {
     cursor: pointer;
     padding: 30px 0 30px 30px;
     position: relative;
+    font-weight: 700;
+    letter-spacing: 0.015em;
 }
 
 #faq-section .card {
@@ -1407,6 +1438,7 @@ footer .link {
 #short-faq-section .short-faq-item h3 {
     font-weight: 400;
     font-size: 17px;
+    margin-bottom: 17px;
 }
 
 #short-faq-section .short-faq-item p {
@@ -1899,4 +1931,40 @@ footer .link {
 
 #pets-important-section .section-header-secondary {
     margin-bottom: 52px;
+}
+
+
+/* Concierge Top Section */
+#concierge-services-section {
+    padding: 66px 0 50px;
+}
+
+#concierge-services-section.padding-lg {
+    padding: 130px 0 160px;
+}
+
+#concierge-services-section .section-header-secondary {
+    margin-bottom: 130px;
+}
+
+#concierge-services-section .concierge-services-item {
+    margin-bottom: 80px;
+}
+
+#concierge-services-section .concierge-services-item .icon {
+    margin-bottom: 32px;
+}
+
+#concierge-services-section .concierge-services-item h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#concierge-services-section .concierge-services-item h5 {
+    color: #5A687B;
+    margin-bottom: 26px;
+}
+
+#concierge-services-section .concierge-services-item p {
+    line-height: 1.7em;
 }

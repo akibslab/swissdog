@@ -10,17 +10,6 @@
 	        appendTo:'.mobile-menu',
 	    });
 
-		// destinations-isotop
-		$('.destinations-list').isotope({
-			// set itemSelector so .grid-sizer is not used in layout
-			itemSelector: '.destination-box',
-			percentPosition: true,
-			masonry: {
-			// use element for option
-			columnWidth: '.destination-box'
-			}
-		});
-
 		// Fleet flying Area Carousel
         $("#fleet-flying-carousel").owlCarousel({
             loop: true,
@@ -154,6 +143,17 @@
 
 
     jQuery(window).load(function(){
+
+		// destinations-isotop
+		$('.destinations-list').isotope({
+			// set itemSelector so .grid-sizer is not used in layout
+			itemSelector: '.destination-box',
+			percentPosition: true,
+			masonry: {
+			// use element for option
+			columnWidth: '.destination-box'
+			}
+		});
 
         
     });

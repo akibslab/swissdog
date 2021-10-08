@@ -425,6 +425,34 @@
 	#faq-section .section-header-secondary {
 	    margin-bottom: 20px;
 	}
+
+	#concierge-services-section {
+	    padding: 33px 0 25px;
+	}
+
+	#concierge-services-section .section-header-secondary {
+	    margin-bottom: 65px;
+	}
+
+	#concierge-services-section .concierge-services-item {
+	    margin-bottom: 40px;
+	}
+
+	#concierge-services-section .concierge-services-item .icon {
+	    margin-bottom: 16px;
+	}
+
+	#concierge-services-section .concierge-services-item h5 {
+	    margin-bottom: 13px;
+	}
+
+	#cta-primary-section.style-2 .cta-box {
+	    margin-top: 25px;
+	}
+
+	#concierge-services-section.padding-lg {
+	    padding: 65px 0 80px;
+	}
 }
 
 
