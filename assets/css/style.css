@@ -38,6 +38,13 @@ img {
     width: initial;
 }
 
+.divider {
+    width: 22px;
+    height: 2px;
+    background: #E84747;
+    display: block;
+}
+
 
 /* Typograpgy */
 body {
@@ -80,6 +87,10 @@ h3 {
 h4 {
     font-weight: normal;
     font-size: 20px;
+}
+
+h4 strong {
+    color: #F02D2D;
 }
 
 h4.barlow {
@@ -255,7 +266,6 @@ h5 {
 .section-header-secondary p {
     font-size: 32px;
     color: #000000;
-    max-width: 436px;
     width: 100%;
     margin-bottom: 20px;
     line-height: 100.5%;
@@ -266,8 +276,16 @@ h5 {
     color: #898989;
 }
 
+.section-header-secondary .quote .dark {
+    color: #000000;
+}
+
 .red {
     color: #D92E23;
+}
+
+.red-light {
+    color: #FF0202;
 }
 
 
@@ -788,6 +806,10 @@ footer .link {
     margin-bottom: 0;
 }
 
+#destinations-section .section-header-secondary p {
+    max-width: 436px;
+}
+
 #destinations-section .destinations-box {
     margin-top: -20px;
 }
@@ -1290,6 +1312,10 @@ footer .link {
     padding: 115px 0 215px;
 }
 
+#faq-section .section-header-secondary p {
+    max-width: 436px;
+}
+
 #faq-section .card-header {
     padding: 0;
     background: none;
@@ -1633,7 +1659,6 @@ footer .link {
 /* Empty Leg Section */
 #empty-legs-section .section-header-secondary p {
     max-width: 316px;
-    width: 100%;
 }
 
 #empty-legs-section .section-header-secondary {
@@ -1967,4 +1992,183 @@ footer .link {
 
 #concierge-services-section .concierge-services-item p {
     line-height: 1.7em;
+}
+
+
+/* Cargo Intor Section */
+#cargo-intro-section {
+    padding: 66px 0 90px;
+}
+
+#cargo-intro-section .section-header-secondary {
+    margin-bottom: 32px;
+}
+
+#cargo-intro-section .cargo-intro-box p {
+    max-width: 500px;
+    width: 100%;
+}
+
+
+/* Cargo Solution Section */
+#cargo-solution-section {
+    padding: 100px 0 120px;
+    background: #FBFBFB;
+}
+
+#cargo-solution-section p {
+    line-height: 1.7em;
+    max-width: 394px;
+    width: 100%;
+}
+
+#cargo-solution-section p span.red-light {
+    margin-right: 5px;
+}
+
+
+/* Cargo configuration Section */
+#cargo-configuration-section {
+    padding: 90px 0 166px;
+}
+
+#cargo-configuration-section .section-header {
+    margin-bottom: 50px;
+}
+
+#cargo-configuration-section .section-header h4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#cargo-configuration-section .section-header .sub {
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #4B4B4B;
+    display: block;
+}
+
+#cargo-configuration-section .section-header .size {
+    font-size: 26px;
+    color: #4B4B4B;
+}
+
+#cargo-configuration-section .section-header .divider {
+    margin: 15px 0 8px;
+}
+
+#cargo-configuration-section .section-header .size .dark {
+    color: #000000;
+}
+
+#cargo-configuration-section .image-box {
+    text-align: center;
+}
+
+
+/* PC-12 Section */
+#pc-12-section .image-box {
+    width: 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pc-12-section .section-header-secondary.top-border:after {
+    width: 25px;
+    height: 3px;
+}
+
+#pc-12-section .section-header-secondary h3 {
+    margin-bottom: 5px;
+}
+
+#pc-12-section .section-header-secondary .sub {
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    color: #708697;
+}
+
+#pc-12-section .contents-box {
+    width: 45%;
+    background: #FAFAFA;
+    padding: 68px 54px 55px;
+}
+
+#pc-12-section .contents-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 234px;
+    width: 100%;
+}
+
+#pc-12-section .contents-box ul li {
+    padding: 26px 0;
+    font-size: 20px;
+    color: #2C2C2C;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#pc-12-section .contents-box ul li:last-child {
+    border-bottom: none;
+}
+
+#pc-12-section .contents-box ul li .label {
+    font-size: 14px;
+    color: #708697;
+    display: block;
+}
+
+
+/* PC-12 Compare Section */
+#pc-12-compare-section {
+    padding: 165px 0;
+}
+
+#pc-12-compare-section .contents-box {
+    width: 45%;
+    padding: 75px 75px 160px 15px;
+    text-align: right;
+}
+
+#pc-12-compare-section .contents-box .contents-box-inner {
+    max-width: 370px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+#pc-12-compare-section .contents-box ul {
+    max-width: 350px;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7em;
+}
+
+#pc-12-compare-section .contents-box ul li {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 35px;
+}
+
+#pc-12-compare-section .contents-box ul li:last-child {
+    margin-bottom: 0;
+}
+
+#pc-12-compare-section .contents-box ul li .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 30px;
+}
+
+#pc-12-compare-section .image-box {
+    width: 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
