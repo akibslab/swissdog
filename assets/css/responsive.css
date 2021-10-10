@@ -453,6 +453,47 @@
 	#concierge-services-section.padding-lg {
 	    padding: 65px 0 80px;
 	}
+
+	#cargo-intro-section {
+	    padding: 33px 0 45px;
+	}
+
+	#cargo-solution-section {
+	    padding: 50px 0 60px;
+	}
+
+	#cargo-configuration-section {
+	    padding: 45px 0 80px;
+	}
+
+	#cargo-configuration-section .col-md-6:first-of-type .image-box {
+	    margin-bottom: 50px;
+	}
+
+	#pc-12-section .image-box {
+		width: 100%;
+		height: 500px;
+	}
+
+	#pc-12-section .contents-box {
+	    width: 100%;
+	    padding: 50px;
+	}
+
+	#pc-12-compare-section {
+	    padding: 80px 0;
+	}
+
+	#pc-12-compare-section .contents-box {
+	    width: 100%;
+	    padding: 0 50px 50px;
+	    text-align: left;
+	}
+
+	#pc-12-compare-section .image-box {
+		width: 100%;
+		height: 500px;
+	}
 }
 
 
