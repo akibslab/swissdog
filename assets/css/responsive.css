@@ -25,6 +25,18 @@
 	    top: 50px;
 	    left: 629px;
 	}
+
+	#pets-heighlight-section .pet-heighlight-box {
+		max-width: 450px;
+	}
+
+	#pets-heighlight-section .pet-heighlight-box ul {
+		padding: 55px 62px 85px 43px;
+	}
+
+	.image-style-box .image-style-image {
+		left: 285px;
+	}
 }
 
 
@@ -332,6 +344,114 @@
 
 	#blog-section .blog-item {
 		margin-bottom: 50px;
+	}
+
+	#empty-legs-section .filter-form-box .primary-inputs {
+	    border: none;
+	    box-shadow: none;
+	}
+
+	#empty-legs-section .filter-form-box .primary-inputs .input-item {
+	    width: 100%;
+	    border-right: none;
+	    border: 1px solid #F2F2F2;
+	    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
+	    margin-bottom: 10px;
+	    padding: 5px 10px;
+	    min-height: 50px;
+	}
+
+	#empty-legs-section .section-header-secondary {
+	    padding: 33px 0 15px;
+	}
+
+	#empty-legs-section .empty-legs-box {
+	    margin-bottom: 30px;
+	}
+
+	#faq-section.padding-sm {
+	    padding: 33px 0 47px;
+	}
+
+	#pets-intro-section {
+	    padding: 40px 0 15px;
+	}
+
+	#pets-heighlight-section {
+	    padding: 20px 0 25px;
+	}
+
+	.image-style-box {
+		margin-top: 0;
+		position: initial;
+		max-width: 500px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#pets-heighlight-section .pet-heighlight-box ul {
+		padding: 50px;
+	}
+
+	.image-style-box .image-style-image {
+		position: initial;
+		margin-top: 25px;
+	}
+
+	#pets-important-section {
+	    padding: 25px 0 55px;
+	}
+
+	#pets-important-section .section-header-secondary {
+	    margin-bottom: 26px;
+	}
+
+	#pets-important-section .important-info ul li {
+		margin-bottom: 20px;
+	}
+
+	#pets-important-section .important-info {
+		margin-bottom: 25px;
+	}
+
+	#pets-important-section .imortant-text-box {
+		padding: 50px;
+	}
+
+	#faq-section {
+	    padding: 18px 0 50px;
+	}
+
+	#faq-section .section-header-secondary {
+	    margin-bottom: 20px;
+	}
+
+	#concierge-services-section {
+	    padding: 33px 0 25px;
+	}
+
+	#concierge-services-section .section-header-secondary {
+	    margin-bottom: 65px;
+	}
+
+	#concierge-services-section .concierge-services-item {
+	    margin-bottom: 40px;
+	}
+
+	#concierge-services-section .concierge-services-item .icon {
+	    margin-bottom: 16px;
+	}
+
+	#concierge-services-section .concierge-services-item h5 {
+	    margin-bottom: 13px;
+	}
+
+	#cta-primary-section.style-2 .cta-box {
+	    margin-top: 25px;
+	}
+
+	#concierge-services-section.padding-lg {
+	    padding: 65px 0 80px;
 	}
 }
 

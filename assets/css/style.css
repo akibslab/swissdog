@@ -88,6 +88,11 @@ h4.barlow {
     letter-spacing: -0.055em;
 }
 
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .btn-icon-left {
     margin-right: 2px;
 }
@@ -240,6 +245,11 @@ h4.barlow {
     font-family: Barlow;
     font-weight: 400;
     letter-spacing: -0.055em;
+}
+
+.section-header-secondary .lead {
+    font-size: 20px;
+    color: #000000;
 }
 
 .section-header-secondary p {
@@ -601,7 +611,6 @@ header .mobile-menu {
 /* CTA Primary Section */
 #cta-primary-section {
     color: #fff;
-    background-image: url(../img/cta-primary/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -647,6 +656,13 @@ header .mobile-menu {
     right: 8;
 }
 
+#cta-primary-section .quote-box h3 {
+    color: #FFFFFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
 #cta-primary-section .quote-box span {
     font-family: Poppins;
     font-size: 14px;
@@ -657,8 +673,21 @@ header .mobile-menu {
     padding-left: 15px;
 }
 
+#cta-primary-section.style-2 .quote-box span {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #898989;
+    padding-left: 2px;
+}
+
 #cta-primary-section .cta-box {
     margin-top: 65px;
+}
+
+#cta-primary-section.style-2 .cta-box {
+    margin-top: 5px;
 }
 
 #cta-primary-section .cta-box h4 {
@@ -1253,20 +1282,35 @@ footer .link {
     padding: 72px 0 195px;
 }
 
+#faq-section.padding-sm {
+    padding: 66px 0 94px;
+}
+
+#faq-section.padding-lg {
+    padding: 115px 0 215px;
+}
 
 #faq-section .card-header {
     padding: 0;
     background: none;
+    border-bottom:  none;
 }
 
-#faq-section .card-header h5 {
+#faq-section .card-header h4 {
     cursor: pointer;
     padding: 30px 0 30px 30px;
     position: relative;
+    font-weight: 700;
+    letter-spacing: 0.015em;
 }
 
 #faq-section .card {
     border: none;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+#faq-section .card:first-of-type {
+    border-top: 1px solid #F0F0F0;
 }
 
 #faq-section .card-header span {
@@ -1276,10 +1320,6 @@ footer .link {
     position: absolute;
     top: 27px;
     left: 5px;
-}
-
-#faq-section .section-header-secondary {
-    margin-bottom: 80px;
 }
 
 
@@ -1398,6 +1438,7 @@ footer .link {
 #short-faq-section .short-faq-item h3 {
     font-weight: 400;
     font-size: 17px;
+    margin-bottom: 17px;
 }
 
 #short-faq-section .short-faq-item p {
@@ -1590,20 +1631,29 @@ footer .link {
 
 
 /* Empty Leg Section */
-#empty-legs-section .section-header-secondary p{
+#empty-legs-section .section-header-secondary p {
     max-width: 316px;
     width: 100%;
 }
 
-#empty-legs-section .section-header-secondary{
+#empty-legs-section .section-header-secondary {
     padding: 66px 0 31px;
+}
+
+#empty-legs-section .empty-legs-wrpr {
+    background: #FBFBFB;
+}
+
+#empty-legs-section .filter-form-box {
+    background:  #fff;
 }
 
 #empty-legs-section .filter-form-box .primary-inputs {
     border: 1px solid #F2F2F2;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
-    margin-bottom: 26px;
+    margin-bottom: 30px;
+    margin-top: -30px;
 }
 
 #empty-legs-section .filter-form-box .primary-inputs .input-item {
@@ -1710,10 +1760,15 @@ footer .link {
     color: #000000;
 }
 
+#empty-legs-section .empty-legs-box {
+    margin-bottom: 60px;
+}
+
 #empty-legs-section .table-responsive {
     background: #fff;
     padding: 0 25px;
-    margin-bottom: 45px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 11px;
 }
 
 #empty-legs-section .table-responsive table {
@@ -1760,9 +1815,10 @@ footer .link {
     margin-left: 10px;
 }
 
+
 /* Pets Intor Section */
-#pets-intro--section .section-header-secondary {
-    padding: 66px 0 57px;
+#pets-intro-section {
+    padding: 85px 0 30px;
 }
 
 #pets-intro-section .section-header-secondary {
@@ -1776,12 +1832,15 @@ footer .link {
 #pets-intro-section .pet-intro-box {
     max-width: 682px;
     width: 100%;
-    margin-bottom: 68px;
     color: #000000;
 }
 
 
 /* Pets Heighlight Section */
+#pets-heighlight-section {
+    padding: 40px 0 55px;
+}
+
 #pets-heighlight-section .pet-heighlight-box {
     background: #D83333;
     color: #fff;
@@ -1792,7 +1851,7 @@ footer .link {
 #pets-heighlight-section .pet-heighlight-box ul {
     list-style: none;
     margin: 0;
-    padding: 60px 77px 95px 58px;
+    padding: 70px 77px 110px 58px;
     font-size: 20px;
     line-height: 119%;
     letter-spacing: 0.015em;
@@ -1807,10 +1866,23 @@ footer .link {
     border-bottom: none;
 }
 
+.image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+.image-style-box .image-style-image {
+    position: absolute;
+    top: -115px;
+    left: 375px;
+    z-index: -1;
+}
+
 
 /* pets Importent Section */
 #pets-important-section {
-    padding: 104px 0 96px;
+    padding: 55px 0 115px;
 }
 
 #pets-important-section .important-info {
@@ -1843,23 +1915,56 @@ footer .link {
 }
 
 #pets-important-section .imortant-text-box {
-    width: 404px;
+    max-width: 404px;
+    width: 100%;
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
+    padding: 80px 63px 55px 63px;
 }
 
 #pets-important-section .imortant-text-box p{
     margin: 0;
     font-size: 17px;
     color: #2F3640;
-    padding: 80px 63px 55px 63px;
 }
 
 #pets-important-section .section-header-secondary {
     margin-bottom: 52px;
 }
 
-#pets-important-section .section-header-secondary h3{
-    padding-bottom: 32px;
+
+/* Concierge Top Section */
+#concierge-services-section {
+    padding: 66px 0 50px;
+}
+
+#concierge-services-section.padding-lg {
+    padding: 130px 0 160px;
+}
+
+#concierge-services-section .section-header-secondary {
+    margin-bottom: 130px;
+}
+
+#concierge-services-section .concierge-services-item {
+    margin-bottom: 80px;
+}
+
+#concierge-services-section .concierge-services-item .icon {
+    margin-bottom: 32px;
+}
+
+#concierge-services-section .concierge-services-item h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#concierge-services-section .concierge-services-item h5 {
+    color: #5A687B;
+    margin-bottom: 26px;
+}
+
+#concierge-services-section .concierge-services-item p {
+    line-height: 1.7em;
 }
