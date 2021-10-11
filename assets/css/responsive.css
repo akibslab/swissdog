@@ -34,7 +34,7 @@
 		padding: 55px 62px 85px 43px;
 	}
 
-	.image-style-box .image-style-image {
+	#pets-heighlight-section .image-style-box .image-style-image {
 		left: 285px;
 	}
 }
@@ -381,7 +381,7 @@
 	    padding: 20px 0 25px;
 	}
 
-	.image-style-box {
+	#pets-heighlight-section .image-style-box {
 		margin-top: 0;
 		position: initial;
 		max-width: 500px;
@@ -393,7 +393,7 @@
 		padding: 50px;
 	}
 
-	.image-style-box .image-style-image {
+	#pets-heighlight-section .image-style-box .image-style-image {
 		position: initial;
 		margin-top: 25px;
 	}
