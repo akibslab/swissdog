@@ -494,6 +494,67 @@
 		width: 100%;
 		height: 500px;
 	}
+
+	#pc12-intro-section {
+		padding: 50px 0;
+	}
+
+	#pc12-performance-section .image-box, #pc12-interior-section .image-box {
+		width: 100%;
+		height: 500px;
+	}
+
+	#pc12-performance-section .contents-box {
+		width: 100%;
+		padding: 50px;
+	}
+
+	#pc12-interior-section .contents-box {
+		width: 100%;
+		padding: 50px;
+		text-align: left;
+	}
+
+	#cabin-layout-section {
+	    padding: 38px 0 10px;
+	}
+
+	#cabin-layout-section .image-box {
+		margin-bottom: 50px;
+	}
+
+	#cabin-configurations-section {
+	    padding: 62px 0 54px;
+	}
+
+	#cabin-configurations-section .section-header-primary {
+	    margin-bottom: 30px;
+	}
+
+	#cabin-configurations-section .cabin-configurations-item {
+	    padding: 40px 15px 45px;
+	}
+
+	#cabin-configurations-section .cabin-configurations-item p {
+	    margin-bottom: 35px;
+	}
+
+	#why-pc12-section {
+	    padding: 58px 0 45px;
+	}
+
+	#life-saver-section {
+	    padding: 170px 0 25px;
+	}
+
+	#life-saver-section .logo-box {
+		margin-top: 40px;
+		max-width: 100%;
+	}
+
+	#cta-tertiary-section {
+	    padding: 45px 0 75px;
+	}
 }
 
 
