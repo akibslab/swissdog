@@ -1306,12 +1306,12 @@ footer .link {
     text-align: left;
 }
 
-#the-fleet-section .the-fleet-featured-item {
+.the-fleet-featured-box .the-fleet-featured-item {
     display: inline-block;
     text-align: left;
 }
 
-#the-fleet-section .the-fleet-featured-item .number {
+.the-fleet-featured-box .the-fleet-featured-item .number {
     font-weight: bold;
     font-size: 28px;
     letter-spacing: -0.055em;
@@ -1319,7 +1319,7 @@ footer .link {
     margin-bottom: 20px;
 }
 
-#the-fleet-section .the-fleet-featured-item .text {
+.the-fleet-featured-box .the-fleet-featured-item .text {
     line-height: 18px;
 }
 
@@ -2494,12 +2494,8 @@ footer .link {
 }
 
 /* Who We Are Section */
-#who-we-are{
-    padding-bottom: 99px;
-}
-
 #who-we-are .bg-color{
-    background:  #FBFBFB;
+    background: #FBFBFB;
     padding: 110px 0 118px;
 }
 
@@ -2558,21 +2554,39 @@ footer .link {
     line-height: 100.5%;
 }
 
+
+/* About Intro Section */
+#about-intro-section {
+    padding: 70px 0 100px;
+}
+
+#about-intro-section .section-header-secondary {
+    margin-bottom: 0;
+}
+
+#about-intro-section .section-header-secondary p {
+    max-width: 380px;
+    margin-bottom: 0;
+}
+
 /*About Message Section */
 #about-message-section{
-    padding-bottom: 92px;
+    padding: 99px 0 92px;
 }
 
 #about-message-section .name{
     line-height: 22.1px;
     color: #000000;
 }
+
 #about-message-section .position{
     line-height: 17.34px;
     color: #F00;
 }
 
-/*About Highlight Section*/
+
+/*
+ About Highlight Section */
 #about-heighlight-section {
     padding: 40px 0 61px;
 }
@@ -2634,6 +2648,7 @@ footer .link {
 #about-started-section .about-start-box {
     padding: 61px 0 50px;
 }
+
 #about-started-section .bg-color {
     background: #FBF8F8;
 }
@@ -2658,6 +2673,7 @@ footer .link {
 #about-started-section .contents-item img {
     margin-bottom: 45px;
 }
+
 
 /*About Different Section*/
 #about-different-section{
@@ -2719,28 +2735,29 @@ footer .link {
     left: 0;
 }
 
+
 /*Environment Section */
-
 #environment-section {
-    padding: 107px 0 168px;
+    padding: 107px 0 38px;
 }
 
-#environment-section .enviroment-box{
+#environment-section .enviroment-box {
     border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 75px;
+    margin-bottom: 56px;
 }
 
-#environment-section .section-header-secondary img {
+#environment-section .enviroment-box img {
     margin-bottom: 32px;
 }
 
-#environment-section .section-header-secondary {
-    max-width: 447px;
-    width: 100%;
+#environment-section .enviroment-box h3 {
+    margin-bottom: 30px;
 }
 
-#environment-section .section-header-secondary p {
-    margin-top: 32px;
-    padding-bottom: 57px;
+#environment-section .enviroment-box p {
+    max-width: 447px;
+    width: 100%;
     color: #5A687B;
     font-size: 15px;
     line-height: 24px;
