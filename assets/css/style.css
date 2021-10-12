@@ -2756,25 +2756,25 @@ footer .link {
     line-height: 24px;
 }
 
-/* How It Work */
-#how-it-work {
+/* How It Works intro */
+#how-it-work-intro {
     padding: 61px 0 0;
 }
-#how-it-work .section-header-secondary {
+#how-it-work-intro .section-header-secondary {
     max-width: 427px;
     width: 100%;
     margin-bottom: 0;
 }
 
-#how-it-work .section-header-secondary h1 {
+#how-it-work-intro .section-header-secondary h1 {
     margin-bottom: 38px;
 }
 
-#how-it-work .section-header-secondary p {
+#how-it-work-intro .section-header-secondary p {
     margin-bottom: 36px;
 }
 
-#how-it-work .section-header-secondary span {
+#how-it-work-intro .section-header-secondary span {
     color: #000000;
     font-size: 14px;
 }
@@ -2793,46 +2793,50 @@ footer .link {
 
 #how-it-work-heighlight-section .image-style-box .image-style-image {
     position: absolute;
-    top: -136px;
+    top: -120px;
     left: 375px;
     z-index: -1;
 }
 
-#how-it-work-heighlight-section .how-it-work-heighlight-box {
+#how-it-work-heighlight-section .heighlight-box {
     background: #D83333;
     color: #fff;
     width: 513px;
-    padding: 108px 61px 63px 66px;
+    padding: 108px 61px 113px 66px;
 }
 
-#how-it-work-heighlight-section .how-it-work-heighlight-box h3 {
+#how-it-work-heighlight-section .heighlight-box h3 {
     margin-top: 25px;
     color: #FFF;
 }
 
-#how-it-work-heighlight-section .how-it-work-heighlight-box p {
+#how-it-work-heighlight-section .heighlight-box p {
     font-size: 20px;
 }
 
-/* How To Work It Policy */
-#how-to-work-it-policy .how-to-work-it-policy-item {
+/* Policy */
+#policy .policy-item {
     display: flex;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
 }
 
-#how-to-work-it-policy .image-box{
+#policy .image-box{
     width: 40px;
     margin-right: 20px;
 }
 
-#how-to-work-it-policy .text-box {
+#policy .text-box {
     width: calc(100% - 60px);
 }
-#how-to-work-it-policy .text-box h4{
-    line-height: 133.34%;
+#policy .text-box h4{
+    line-height: 107.34%;
     margin-bottom: 20px;
 }
-#how-to-work-it-policy .text-box span {
+#policy .text-box p{
+    line-height: 24px;
+}
+
+#policy .text-box span {
     color: #000;
     font-size: 15px;
 }
@@ -2842,15 +2846,16 @@ footer .link {
     padding-top: 128px;
 }
 
-#work-details .work-details-text {
-    max-width: 523px;
-    width: 100%;
-    padding-bottom: 74px;
+#work-details h2 {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 107.34%;
+}
+#work-details p {
+    line-height: 24px;
 }
 
-#work-details .work-details-text h4 {
-    margin-bottom: 16px;
-}
 /* How It Work CTA Section */
 
 #how-it-work-cta-section {
@@ -2858,9 +2863,13 @@ footer .link {
 }
 
 #how-it-work-cta-section .booking-box {
-    max-width: 681px;
+    max-width: 714px;
     width: 100%;
     margin: 0 auto;
+}
+
+#how-it-work-cta-section .booking-box h3{
+    margin-bottom: 50px;
 }
 
 #how-it-work-cta-section .booking-box h3{
