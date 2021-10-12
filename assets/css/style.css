@@ -269,6 +269,7 @@ h5 {
 .section-header-secondary .lead {
     font-size: 20px;
     color: #000000;
+    line-height: 1.5em;
 }
 
 .section-header-secondary p {
@@ -2762,3 +2763,85 @@ footer .link {
     font-size: 15px;
     line-height: 24px;
 }
+
+
+/* Investors Intro Section */
+#investors-intro-section {
+    padding: 66px 0 85px;
+}
+
+
+/* Did You Know Section */
+#did-you-know-section .bg-color {
+    background: #FBFBFB;
+    padding: 100px 0;
+}
+
+#did-you-know-section .did-you-know-box h3 {
+    margin-bottom: 15px;
+}
+
+#did-you-know-section .did-you-know-box p {
+    line-height: 24px;
+}
+
+
+/* OH Doc Section */
+#oh-doc-section {
+    padding: 100px 0 120px;
+}
+
+#oh-doc-section h3 {
+    margin-bottom: 60px;
+}
+
+#oh-doc-section p {
+    line-height: 24px;
+}
+
+
+/*
+ About Highlight Section */
+#investors-heighlight-section {
+    padding: 40px 0 90px;
+}
+
+#investors-heighlight-section .image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+#investors-heighlight-section .image-style-box .image-style-image {
+    position: absolute;
+    top: -115px;
+    left: 375px;
+    z-index: -1;
+}
+
+#investors-heighlight-section .investors-heighlight-box {
+    background: #D83333;
+    color: #fff;
+    width: 513px;
+    padding: 92px 74px 130px;
+}
+
+#investors-heighlight-section .investors-heighlight-box img {
+    margin-bottom: 46px;
+}
+
+#investors-heighlight-section .investors-heighlight-box h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+#investors-heighlight-section .investors-heighlight-box p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 293px;
+    width: 100%;
+}
+
