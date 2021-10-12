@@ -2841,18 +2841,18 @@ footer .link {
     font-size: 15px;
 }
 
-/* Work details */
-#work-details {
+/* Work details section */
+#work-details-section {
     padding-top: 128px;
 }
 
-#work-details h2 {
+#work-details-section h2 {
     margin-bottom: 16px;
     font-size: 20px;
     font-weight: 400;
     line-height: 107.34%;
 }
-#work-details p {
+#work-details-section p {
     line-height: 24px;
 }
 
