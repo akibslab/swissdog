@@ -2845,3 +2845,45 @@ footer .link {
     width: 100%;
 }
 
+
+/* Investors Featured Section */
+#investors-featured-section {
+    padding: 90px 0 80px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+#investors-featured-section .investors-featured-item {
+    max-width: 203px;
+    width: 100%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+#investors-featured-section .investors-featured-item img {
+    margin-bottom: 25px;
+}
+
+#investors-featured-section .investors-featured-item h4 {
+    font-weight: bold;
+    letter-spacing: 0.015em;
+}
+
+#investors-featured-section .investors-featured-item p {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+
+/* Use Aircraft Section */
+#use-aircraft-section {
+    padding: 115px 0 50px;
+}
+
+#use-aircraft-section .section-header-secondary h3 {
+    max-width: 309px;
+    width: 100%;
+}
+
+#use-aircraft-section p {
+    line-height: 24px;
+}
