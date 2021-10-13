@@ -3201,3 +3201,143 @@ footer .link {
 #blog-section aside .popular-item h4 a {
     color: #2B2B29;
 }
+
+
+/* Single Post Section */
+#single-post-section {
+    padding: 32px 0 50px;
+}
+
+#single-post-section .back-link {
+    margin-left: 124px;
+    margin-bottom: 30px;
+}
+
+#single-post-section .back-link a {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.63px;
+    color: #DD0C0C;
+}
+
+#single-post-section .back-link a img {
+    margin-right: 10px;
+}
+
+#single-post-section .post-share-box {
+    width: 155px;
+}
+
+#single-post-section .post-share-box .share {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.63px;
+    color: #000000;
+    margin-bottom: 16px;
+    display: block;
+}
+
+#single-post-section .post-share-box ul {
+    margin: 0 0 0 13px;
+    padding: 0;
+    list-style: none;
+}
+
+#single-post-section .post-share-box ul li {
+    margin-bottom: 20px;
+}
+
+#single-post-section .post-contents-box {
+    width: calc(100% - 155px);
+}
+
+#single-post-section article {
+    margin-bottom: 100px;
+}
+
+#single-post-section article .category {
+    margin-bottom: 30px;
+}
+
+#single-post-section article .category h4 {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.63px;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+#single-post-section article .category h4:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #979797;
+    top: 50%;
+    margin-top: -1px;
+    left: 100%;
+    margin-left: 43px;
+}
+
+#single-post-section article h1 {
+    margin-bottom: 14px;
+}
+
+#single-post-section article .date {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2B29;
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+
+#single-post-section article p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    color: #2B2B29;
+}
+
+#single-post-section article a {
+    color: #DC0B0B;
+}
+
+#single-post-section .related-posts-box h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 116.3%;
+    color: #647185;
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+}
+
+#single-post-section .related-posts-box .post-item img {
+    margin-bottom: 30px;
+}
+
+#single-post-section .related-posts-box .post-item img {
+    margin-bottom: 30px;
+}
+
+#single-post-section .related-posts-box .post-item h4 a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 116.3%;
+    color: #000000;
+}
