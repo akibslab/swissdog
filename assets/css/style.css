@@ -269,6 +269,7 @@ h5 {
 .section-header-secondary .lead {
     font-size: 20px;
     color: #000000;
+    line-height: 1.5em;
 }
 
 .section-header-secondary p {
@@ -2421,9 +2422,12 @@ footer .link {
     margin-bottom: 20px;
 }
 
-#why-pc12-section h2 {
-    font-size: 20px;
-    font-weight: 400;
+#why-pc12-section h3 {
+    margin-bottom: 20px;
+    line-height: 100.5%;
+}
+
+#why-pc12-section h4 {
     margin-bottom: 15px;
 }
 
@@ -2756,10 +2760,91 @@ footer .link {
     line-height: 24px;
 }
 
+/* Investors Intro Section */
+#investors-intro-section {
+    padding: 66px 0 85px;
+}
+
+
+/* Did You Know Section */
+#did-you-know-section .bg-color {
+    background: #FBFBFB;
+    padding: 100px 0;
+}
+
+#did-you-know-section .did-you-know-box h3 {
+    margin-bottom: 15px;
+}
+
+#did-you-know-section .did-you-know-box p {
+    line-height: 24px;
+}
+
+
+/* OH Doc Section */
+#oh-doc-section {
+    padding: 100px 0 120px;
+}
+
+#oh-doc-section h3 {
+    margin-bottom: 60px;
+}
+
+#oh-doc-section p {
+    line-height: 24px;
+}
+
+
+/* Investors Highlight Section */
+#investors-heighlight-section {
+    padding: 40px 0 90px;
+}
+
+#investors-heighlight-section .image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+#investors-heighlight-section .image-style-box .image-style-image {
+    position: absolute;
+    top: -115px;
+    left: 375px;
+    z-index: -1;
+}
+
+#investors-heighlight-section .investors-heighlight-box {
+    background: #D83333;
+    color: #fff;
+    width: 513px;
+    padding: 92px 74px 130px;
+}
+
+#investors-heighlight-section .investors-heighlight-box img {
+    margin-bottom: 46px;
+}
+
+#investors-heighlight-section .investors-heighlight-box h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+#investors-heighlight-section .investors-heighlight-box p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 293px;
+    width: 100%;
+}
+
+
 /* How It Works intro */
 #how-it-work-intro {
     padding: 61px 0 0;
 }
+
 #how-it-work-intro .section-header-secondary {
     max-width: 427px;
     width: 100%;
@@ -2780,7 +2865,6 @@ footer .link {
 }
 
 /* How It Work Heighlight Section */
-
 #how-it-work-heighlight-section {
     padding: 0 0 108px;
 }
@@ -2796,6 +2880,153 @@ footer .link {
     top: -120px;
     left: 375px;
     z-index: -1;
+}
+
+
+/* Investors Featured Section */
+#investors-featured-section {
+    padding: 90px 0 80px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+#investors-featured-section .investors-featured-item {
+    max-width: 203px;
+    width: 100%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+#investors-featured-section .investors-featured-item img {
+    margin-bottom: 25px;
+}
+
+#investors-featured-section .investors-featured-item h4 {
+    font-weight: bold;
+    letter-spacing: 0.015em;
+}
+
+#investors-featured-section .investors-featured-item p {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+
+/* Use Aircraft Section */
+#use-aircraft-section {
+    padding: 115px 0 50px;
+}
+
+#use-aircraft-section .section-header-secondary {
+    margin-bottom: 30px;
+}
+
+#use-aircraft-section .section-header-secondary h3 {
+    max-width: 309px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#use-aircraft-section p {
+    line-height: 24px;
+}
+
+
+/* Investors Compare Section */
+#investors-compare-section {
+    padding: 50px 0 124px;
+}
+
+#investors-compare-section h4 {
+    margin-bottom: 20px;
+}
+
+#investors-compare-section table {
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    border-top: 1px solid #EBEAEA;
+}
+
+#investors-compare-section table tr {
+    border-bottom: 1px solid #EBEAEA;
+}
+
+#investors-compare-section table tr td {
+    padding: 15px 0;
+    position: relative;
+}
+
+#investors-compare-section table tr:first-child td {
+    padding: 25px 0;
+}
+
+#investors-compare-section table tr:first-child td:nth-child(2) {
+    color: #5A687B;
+}
+
+#investors-compare-section table tr:first-child td:nth-child(2):after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: -25px;
+    width: 15px;
+    height: 2px;
+    background: #000000;
+}
+
+#investors-compare-section table tr:first-child td:last-child {
+    color: #FF0202;
+}
+
+#investors-compare-section table tr:first-child td:last-child:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: -25px;
+    width: 15px;
+    height: 2px;
+    background: #FF1B1B;
+}
+
+#investors-compare-section table tr td:first-child {
+    font-size: 15px;
+    color: #5A687B;
+}
+
+
+/* Key Advantages Section */
+#key-advantages-section .bg-color {
+    background: #FBFBFB;
+    padding: 121px 0 117px;
+}
+
+#key-advantages-section h3 {
+    margin-bottom: 30px;
+}
+
+#key-advantages-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#key-advantages-section ul li {
+    font-size: 16px;
+    color: #000000;
+    padding: 0 0 0 20px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+#key-advantages-section ul li span {
+    font-size: 16px;
+    color: #F00;
+    font-weight: 400;
+    position: absolute;
+    top: 0px;
+    left: 5px;
 }
 
 #how-it-work-heighlight-section .heighlight-box {
