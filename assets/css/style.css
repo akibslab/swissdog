@@ -73,6 +73,10 @@ h1 {
     font-size: 42px;
 }
 
+h1 strong {
+    color: #DC0B0B;
+}
+
 h2 {
     font-weight: bold;
     font-size: 36px;
@@ -224,6 +228,10 @@ h5 {
     margin: 0 auto;
 }
 
+.section-header-primary sub {
+    font-size: 15px;
+}
+
 .section-header-secondary {
     margin-bottom: 50px;
 }
@@ -250,6 +258,7 @@ h5 {
 .section-header-secondary h1 {
     color: #DC0B0B;
     margin-bottom: 20px;
+    word-wrap: break-word;
 }
 
 .section-header-secondary.barlow h3 {
@@ -261,6 +270,7 @@ h5 {
 .section-header-secondary .lead {
     font-size: 20px;
     color: #000000;
+    line-height: 1.5em;
 }
 
 .section-header-secondary p {
@@ -756,6 +766,23 @@ header .mobile-menu {
 #cta-secondary-section .button-primary-white:first-of-type {
     margin-left: auto;
     margin-right: 10px;
+}
+
+
+/* CTA Tertiary Section */
+#cta-tertiary-section {
+    padding: 90px 0 156px;
+}
+
+#cta-tertiary-section .section-header-secondary {
+    margin-bottom: 0;
+}
+
+#cta-tertiary-section h3 {
+    font-weight: 400;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 35px;
 }
 
 
@@ -1281,12 +1308,12 @@ footer .link {
     text-align: left;
 }
 
-#the-fleet-section .the-fleet-featured-item {
+.the-fleet-featured-box .the-fleet-featured-item {
     display: inline-block;
     text-align: left;
 }
 
-#the-fleet-section .the-fleet-featured-item .number {
+.the-fleet-featured-box .the-fleet-featured-item .number {
     font-weight: bold;
     font-size: 28px;
     letter-spacing: -0.055em;
@@ -1294,7 +1321,7 @@ footer .link {
     margin-bottom: 20px;
 }
 
-#the-fleet-section .the-fleet-featured-item .text {
+.the-fleet-featured-box .the-fleet-featured-item .text {
     line-height: 18px;
 }
 
@@ -1866,6 +1893,19 @@ footer .link {
     padding: 40px 0 55px;
 }
 
+#pets-heighlight-section .image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+#pets-heighlight-section .image-style-box .image-style-image {
+    position: absolute;
+    top: -115px;
+    left: 375px;
+    z-index: -1;
+}
+
 #pets-heighlight-section .pet-heighlight-box {
     background: #D83333;
     color: #fff;
@@ -1889,19 +1929,6 @@ footer .link {
 
 #pets-heighlight-section .pet-heighlight-box ul li:last-child {
     border-bottom: none;
-}
-
-.image-style-box {
-    position: relative;
-    display: inline-block;
-    margin-top: 115px;
-}
-
-.image-style-box .image-style-image {
-    position: absolute;
-    top: -115px;
-    left: 375px;
-    z-index: -1;
 }
 
 
@@ -2171,4 +2198,1146 @@ footer .link {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* PC12 Intro Section */
+#pc12-intro-section {
+    padding: 136px 0 323px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pc12-intro-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+#pc12-intro-section ul li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 2.5px;
+}
+
+#pc12-intro-section ul li:last-child {
+    margin-bottom: 0;
+}
+
+#pc12-intro-section ul li:after {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #FF0202;
+}
+
+
+/* PC12 Page Performance Section */
+#pc12-performance-section .image-box {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pc12-performance-section .section-header-secondary {
+    margin-bottom: 30px;
+}
+
+#pc12-performance-section .section-header-secondary.top-border:after {
+    width: 42px;
+    height: 3px;
+}
+
+#pc12-performance-section .contents-box {
+    width: 50%;
+    background: #FBFBFB;
+    padding: 70px 15px 110px 77px;
+}
+
+#pc12-performance-section .contents-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 297px;
+    width: 100%;
+}
+
+#pc12-performance-section .contents-box ul li {
+    font-size: 20px;
+    color: #000000;
+    padding: 25px 0;
+    border-bottom: 1px solid #ECECEC;
+}
+
+#pc12-performance-section .contents-box ul li:last-child {
+    border-bottom: none;
+}
+
+#pc12-performance-section .contents-box ul li .label {
+    font-size: 14px;
+    color: #708697;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* PC12 Page Interior Section */
+#pc12-interior-section .image-box {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#pc12-interior-section .section-header-secondary {
+    margin-bottom: 20px;
+}
+
+#pc12-interior-section .section-header-secondary h3 {
+    color: #fff;
+}
+
+#pc12-interior-section .contents-box {
+    width: 50%;
+    background: #D83333;
+    padding: 100px 134px 100px 15px;
+    color: #fff;
+    text-align: right;
+}
+
+#pc12-interior-section .contents-box .contents-box-inner {
+    max-width: 297px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+#pc12-interior-section .contents-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#pc12-interior-section .contents-box ul li {
+    font-size: 20px;
+    padding: 25px 0;
+    border-bottom: 1px solid #FF6060;
+}
+
+#pc12-interior-section .contents-box ul li:last-child {
+    border-bottom: none;
+}
+
+#pc12-interior-section .contents-box ul li .label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Cabin Layout Section */
+#cabin-layout-section {
+    padding: 78px 0 120px;
+}
+
+#cabin-layout-section .section-header-secondary.top-border:after {
+    background: #E84747;
+    width: 27px;
+}
+
+#cabin-layout-section .section-header-secondary h3 {
+    margin-bottom: 5px;
+}
+
+#cabin-layout-section .section-header-secondary h3 strong {
+    color: #FF0202;
+}
+
+#cabin-layout-section .section-header-secondary sub {
+    font-size: 20px;
+    color: #000000;
+}
+
+#cabin-layout-section .image-box {
+    text-align: center;
+}
+
+
+/* Cabin Configurations Section */
+#cabin-configurations-section {
+    padding: 124px 0 108px;
+    background: #FBF8F8;
+}
+
+#cabin-configurations-section .section-header-primary {
+    margin-bottom: 93px;
+}
+
+#cabin-configurations-section .section-header-primary .divider {
+    width: 52px;
+    margin: 23px auto 0;
+}
+
+#cabin-configurations-section .cabin-configurations-item {
+    text-align: center;
+    padding: 82px 15px 93px;
+}
+
+#cabin-configurations-section .cabin-configurations-item.active {
+    background: #FFFFFF;
+    border-radius: 19px;
+}
+
+#cabin-configurations-section .cabin-configurations-item h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#cabin-configurations-section .cabin-configurations-item sub {
+    font-size: 14px;
+    color: #4B4B4B;
+    margin-bottom: 26px;
+    display: block;
+}
+
+#cabin-configurations-section .cabin-configurations-item p {
+    font-size: 26px;
+    color: #4B4B4B;
+    margin-bottom: 70px;
+}
+
+#cabin-configurations-section .cabin-configurations-item p span {
+    font-size: 26px;
+    color: #000000;
+}
+
+
+/* Why PC12 Section */
+#why-pc12-section {
+    padding: 116px 0 90px;
+}
+
+#why-pc12-section h1 {
+    margin-bottom: 20px;
+}
+
+#why-pc12-section h3 {
+    margin-bottom: 20px;
+    line-height: 100.5%;
+}
+
+#why-pc12-section h4 {
+    margin-bottom: 15px;
+}
+
+
+/* Life Saver Section */
+#life-saver-section {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 340px 0 50px;
+}
+
+#life-saver-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.92) 100%);
+}
+
+#life-saver-section h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#life-saver-section p {
+    font-size: 18px;
+    line-height: 128.34%;
+}
+
+#life-saver-section .contents-box {
+    max-width: 534px;
+    width: 100%;
+}
+
+#life-saver-section .logo-box {
+    margin-top: 80px;
+    max-width: 162px;
+    width: 100%;
+}
+
+
+/*About section*/
+#cargo-intro-section{
+    padding: 66px 0 79px;
+}
+
+#cargo-intro-section .section-header-secondary h1{
+    margin-bottom: 32px;
+}
+
+
+/* Who We Are Section */
+#who-we-are .bg-color{
+    background: #FBFBFB;
+    padding: 110px 0 118px;
+}
+
+#who-we-are .section-header-secondary p{
+    color: #5A687B;
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 596px;
+    width: 100%;
+    margin-bottom: 34px;
+}
+
+#who-we-are .section-header-secondary h3{
+    margin-bottom: 32px;
+}
+
+#who-we-are .network-list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#who-we-are .network-list ul li{
+    font-size: 16px;
+    color: #000000;
+    padding: 0 0 0 10px;
+    position: relative;
+    letter-spacing: 0.015em;
+    margin-bottom: 16px;
+}
+
+#who-we-are .network-list span{
+    font-size: 16px;
+    color: #F00;
+    font-weight: 400;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+
+#who-we-are .quote-box {
+    padding-top: 76px;
+    max-width: 505px;
+    width: 100%;
+}
+
+#who-we-are .divider{
+    width: 45px;
+    margin-bottom: 40px;
+}
+
+#who-we-are .quote-box .quote-text{
+    font-size: 32px;
+    color: #000000;
+    padding-top: 14px;
+    line-height: 100.5%;
+}
+
+
+/* About Intro Section */
+#about-intro-section {
+    padding: 70px 0 100px;
+}
+
+#about-intro-section .section-header-secondary {
+    margin-bottom: 0;
+}
+
+#about-intro-section .section-header-secondary p {
+    max-width: 380px;
+    margin-bottom: 0;
+}
+
+#about-intro-section .section-header-secondary p strong {
+    color: #DB0303;
+}
+
+/*About Message Section */
+#about-message-section{
+    padding: 99px 0 92px;
+}
+
+#about-message-section .name{
+    line-height: 22.1px;
+    color: #000000;
+}
+
+#about-message-section .position{
+    line-height: 17.34px;
+    color: #F00;
+}
+
+
+/*
+ About Highlight Section */
+#about-heighlight-section {
+    padding: 40px 0 61px;
+}
+
+#about-heighlight-section .image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+#about-heighlight-section .image-style-box .image-style-image {
+    position: absolute;
+    top: -115px;
+    left: 375px;
+    z-index: -1;
+}
+
+#about-heighlight-section .about-heighlight-box {
+    background: #D83333;
+    color: #fff;
+    width: 513px;
+    padding: 36px 39px 102px 39px;
+}
+
+#about-heighlight-section .about-heighlight-box ul {
+    list-style: none;
+    margin: 23px 0 0 25px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 23.87px;
+}
+
+#about-heighlight-section .about-heighlight-box ul li {
+    padding-left: 30px;
+    position: relative;
+    letter-spacing: 0.015em;
+    margin-bottom: 30px;
+}
+
+#about-heighlight-section .about-heighlight-box ul li:last-child {
+    margin-bottom: 0;
+}
+
+#about-heighlight-section .about-heighlight-box ul li span {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+/* About Started Section */
+#about-started-section .about-start-box {
+    padding: 61px 0 50px;
+}
+
+#about-started-section .bg-color {
+    background: #FBF8F8;
+}
+
+#about-started-section .about-start-box .section-header-secondary span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#about-started-section .contents-item {
+    margin-bottom: 60px;
+}
+
+#about-started-section .contents-item {
+    max-width: 541px;
+    width: 100%;
+}
+
+#about-started-section .contents-item img {
+    margin-bottom: 45px;
+}
+
+
+/*About Different Section*/
+#about-different-section{
+    padding: 160px 0;
+    background: #F6F9FB url(../img/about/6.png);
+    background-repeat: no-repeat;
+    background-position: top 95px left;
+    background-size: 60% 100%;
+}
+
+#about-different-section h3 {
+    margin-bottom: 15px;
+}
+
+#about-different-section p {
+    line-height: 24px;
+    color: #333D4B;
+}
+
+
+/*Fly7 Section*/
+#fly7-section {
+    background: #F6F9FB;
+    padding: 0 0 46px;
+}
+
+#fly7-section .fly7-section-box {
+    background: #DD0C0C;
+    max-width: 963px;
+    width: 100%;
+    color: #FFF;
+    padding: 111px 71px 130px 71px;
+    border-radius: 7px;
+}
+
+#fly7-section .fly7-section-box h3 {
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+#fly7-section .fly7-section-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#fly7-section .fly7-section-box ul li {
+    padding: 0 0 0 18px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+#fly7-section .fly7-section-box ul li span {
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*Environment Section */
+#environment-section {
+    padding: 107px 0 38px;
+}
+
+#environment-section .enviroment-box {
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 75px;
+    margin-bottom: 56px;
+}
+
+#environment-section .enviroment-box img {
+    margin-bottom: 32px;
+}
+
+#environment-section .enviroment-box h3 {
+    margin-bottom: 30px;
+}
+
+#environment-section .enviroment-box p {
+    max-width: 447px;
+    width: 100%;
+    color: #5A687B;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/* Investors Intro Section */
+#investors-intro-section {
+    padding: 66px 0 85px;
+}
+
+
+/* Did You Know Section */
+#did-you-know-section .bg-color {
+    background: #FBFBFB;
+    padding: 100px 0;
+}
+
+#did-you-know-section .did-you-know-box h3 {
+    margin-bottom: 15px;
+}
+
+#did-you-know-section .did-you-know-box p {
+    line-height: 24px;
+}
+
+
+/* OH Doc Section */
+#oh-doc-section {
+    padding: 100px 0 120px;
+}
+
+#oh-doc-section h3 {
+    margin-bottom: 60px;
+}
+
+#oh-doc-section p {
+    line-height: 24px;
+}
+
+
+/* Investors Highlight Section */
+#investors-heighlight-section {
+    padding: 40px 0 90px;
+}
+
+#investors-heighlight-section .image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+#investors-heighlight-section .image-style-box .image-style-image {
+    position: absolute;
+    top: -115px;
+    left: 375px;
+    z-index: -1;
+}
+
+#investors-heighlight-section .investors-heighlight-box {
+    background: #D83333;
+    color: #fff;
+    width: 513px;
+    padding: 92px 74px 130px;
+}
+
+#investors-heighlight-section .investors-heighlight-box img {
+    margin-bottom: 46px;
+}
+
+#investors-heighlight-section .investors-heighlight-box h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+
+#investors-heighlight-section .investors-heighlight-box p {
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    max-width: 293px;
+    width: 100%;
+}
+
+
+/* How It Works intro */
+#how-it-work-intro {
+    padding: 61px 0 0;
+}
+
+#how-it-work-intro .section-header-secondary {
+    margin-bottom: 0;
+}
+
+#how-it-work-intro .section-header-secondary p {
+    max-width: 427px;
+}
+
+#how-it-work-intro .section-header-secondary span {
+    color: #000000;
+    font-size: 14px;
+}
+
+/* How It Work Heighlight Section */
+#how-it-work-heighlight-section {
+    padding: 0 0 108px;
+}
+
+#how-it-work-heighlight-section .image-style-box {
+    position: relative;
+    display: inline-block;
+    margin-top: 115px;
+}
+
+#how-it-work-heighlight-section .image-style-box .image-style-image {
+    position: absolute;
+    top: -120px;
+    left: 375px;
+    z-index: -1;
+}
+
+
+/* Investors Featured Section */
+#investors-featured-section {
+    padding: 90px 0 80px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+#investors-featured-section .investors-featured-item {
+    max-width: 203px;
+    width: 100%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+#investors-featured-section .investors-featured-item img {
+    margin-bottom: 25px;
+}
+
+#investors-featured-section .investors-featured-item h4 {
+    font-weight: bold;
+    letter-spacing: 0.015em;
+}
+
+#investors-featured-section .investors-featured-item p {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+
+/* Use Aircraft Section */
+#use-aircraft-section {
+    padding: 115px 0 50px;
+}
+
+#use-aircraft-section .section-header-secondary {
+    margin-bottom: 30px;
+}
+
+#use-aircraft-section .section-header-secondary h3 {
+    max-width: 309px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#use-aircraft-section p {
+    line-height: 24px;
+}
+
+
+/* Investors Compare Section */
+#investors-compare-section {
+    padding: 50px 0 124px;
+}
+
+#investors-compare-section h4 {
+    margin-bottom: 20px;
+}
+
+#investors-compare-section table {
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    border-top: 1px solid #EBEAEA;
+}
+
+#investors-compare-section table tr {
+    border-bottom: 1px solid #EBEAEA;
+}
+
+#investors-compare-section table tr td {
+    padding: 15px 0;
+    position: relative;
+}
+
+#investors-compare-section table tr:first-child td {
+    padding: 25px 0;
+}
+
+#investors-compare-section table tr:first-child td:nth-child(2) {
+    color: #5A687B;
+}
+
+#investors-compare-section table tr:first-child td:nth-child(2):after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: -25px;
+    width: 15px;
+    height: 2px;
+    background: #000000;
+}
+
+#investors-compare-section table tr:first-child td:last-child {
+    color: #FF0202;
+}
+
+#investors-compare-section table tr:first-child td:last-child:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    left: -25px;
+    width: 15px;
+    height: 2px;
+    background: #FF1B1B;
+}
+
+#investors-compare-section table tr td:first-child {
+    font-size: 15px;
+    color: #5A687B;
+}
+
+
+/* Key Advantages Section */
+#key-advantages-section .bg-color {
+    background: #FBFBFB;
+    padding: 121px 0 117px;
+}
+
+#key-advantages-section h3 {
+    margin-bottom: 30px;
+}
+
+#key-advantages-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#key-advantages-section ul li {
+    font-size: 16px;
+    color: #000000;
+    padding: 0 0 0 20px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+#key-advantages-section ul li span {
+    font-size: 16px;
+    color: #F00;
+    font-weight: 400;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+#how-it-work-heighlight-section .heighlight-box {
+    background: #D83333;
+    color: #fff;
+    width: 513px;
+    padding: 108px 61px 113px 66px;
+}
+
+#how-it-work-heighlight-section .heighlight-box h3 {
+    margin-top: 25px;
+    color: #FFF;
+}
+
+#how-it-work-heighlight-section .heighlight-box p {
+    font-size: 20px;
+}
+
+/* Policy */
+#policy .policy-item {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+#policy .image-box{
+    width: 40px;
+    margin-right: 20px;
+}
+
+#policy .text-box {
+    width: calc(100% - 60px);
+}
+#policy .text-box h4{
+    line-height: 107.34%;
+    margin-bottom: 20px;
+}
+#policy .text-box p{
+    line-height: 24px;
+}
+
+#policy .text-box span {
+    color: #000;
+    font-size: 15px;
+}
+
+/* Work details section */
+#work-details-section {
+    padding: 128px 0 80px;
+}
+
+#work-details-section h2 {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 107.34%;
+}
+#work-details-section p {
+    line-height: 24px;
+}
+
+/* How It Work CTA Section */
+
+#how-it-work-cta-section {
+    padding: 160px 0 130px;
+}
+
+#how-it-work-cta-section .booking-box {
+    max-width: 714px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#how-it-work-cta-section .booking-box h3{
+    margin-bottom: 50px;
+}
+
+#how-it-work-cta-section .booking-box h3{
+    font-weight: 400;
+}
+
+
+/* Blog Section */
+#blog-section .post-filter-items {
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 15px 0;
+    margin-bottom: 40px;
+}
+
+#blog-section .post-filter-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#blog-section .post-filter-items ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#blog-section .post-filter-items ul li:last-child {
+    margin-right: 0;
+}
+
+#blog-section .post-filter-items ul li a {
+    font-size: 20px;
+    color: #2B2B29;
+}
+
+#blog-section .post-filter-items ul li.current-menu-item a {
+    color: #D83333;
+}
+
+#blog-section .blog-item {
+    margin-bottom: 60px;
+}
+
+#blog-section .blog-item img {
+    margin-bottom: 30px;
+}
+
+#blog-section .blog-item h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+#blog-section .blog-item h2 a {
+    color: #000000;
+}
+
+#blog-section .blog-item .date {
+    font-family: Poppins;
+    font-size: 16px;
+    color: #2B2B29;
+    opacity: 0.5;
+    margin-bottom: 15px;
+}
+
+#blog-section aside {
+    margin-left: 50px;
+}
+
+#blog-section aside h3 {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.63px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+#blog-section aside h3:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background: #979797;
+    top: 50%;
+    margin-top: -1px;
+    left: 100%;
+    margin-left: 20px;
+}
+
+#blog-section aside .popular-item {
+    margin-bottom: 60px;
+}
+
+#blog-section aside .popular-item .category a {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 17px;
+    color: #868686;
+    margin-bottom: 13px;
+    display: block;
+}
+
+#blog-section aside .popular-item h4 {
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+#blog-section aside .popular-item h4 a {
+    color: #2B2B29;
+}
+
+
+/* Single Post Section */
+#single-post-section {
+    padding: 32px 0 50px;
+}
+
+#single-post-section .back-link {
+    margin-left: 124px;
+    margin-bottom: 30px;
+}
+
+#single-post-section .back-link a {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.63px;
+    color: #DD0C0C;
+}
+
+#single-post-section .back-link a img {
+    margin-right: 10px;
+}
+
+#single-post-section .post-share-box {
+    width: 155px;
+}
+
+#single-post-section .post-share-box .share {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.63px;
+    color: #000000;
+    margin-bottom: 16px;
+    display: block;
+}
+
+#single-post-section .post-share-box ul {
+    margin: 0 0 0 13px;
+    padding: 0;
+    list-style: none;
+}
+
+#single-post-section .post-share-box ul li {
+    margin-bottom: 20px;
+}
+
+#single-post-section .post-contents-box {
+    width: calc(100% - 155px);
+}
+
+#single-post-section article {
+    margin-bottom: 100px;
+}
+
+#single-post-section article .category {
+    margin-bottom: 30px;
+}
+
+#single-post-section article .category h4 {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.63px;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+#single-post-section article .category h4:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #979797;
+    top: 50%;
+    margin-top: -1px;
+    left: 100%;
+    margin-left: 43px;
+}
+
+#single-post-section article h1 {
+    margin-bottom: 14px;
+}
+
+#single-post-section article .date {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2B2B29;
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+
+#single-post-section article p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 26px;
+    color: #2B2B29;
+}
+
+#single-post-section article a {
+    color: #DC0B0B;
+}
+
+#single-post-section .related-posts-box h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 116.3%;
+    color: #647185;
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+}
+
+#single-post-section .related-posts-box .post-item img {
+    margin-bottom: 30px;
+}
+
+#single-post-section .related-posts-box .post-item img {
+    margin-bottom: 30px;
+}
+
+#single-post-section .related-posts-box .post-item h4 a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 116.3%;
+    color: #000000;
 }

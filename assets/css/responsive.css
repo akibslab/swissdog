@@ -34,8 +34,32 @@
 		padding: 55px 62px 85px 43px;
 	}
 
-	.image-style-box .image-style-image {
+	#pets-heighlight-section .image-style-box .image-style-image {
 		left: 285px;
+	}
+
+	#about-heighlight-section .about-heighlight-box {
+		width: 450px;
+	}
+
+	#about-heighlight-section .image-style-box .image-style-image {
+		left: 285px;
+	}
+
+	#investors-heighlight-section .investors-heighlight-box {
+		width: 450px;
+	}
+
+	#investors-heighlight-section .image-style-box .image-style-image {
+	    left: 285px;
+	}
+
+	#how-it-work-heighlight-section .heighlight-box {
+		width: 450px;
+	}
+
+	#how-it-work-heighlight-section .image-style-box .image-style-image {
+	    left: 285px;
 	}
 }
 
@@ -263,15 +287,15 @@
 	    margin-bottom: 50px;
 	}
 
-	#the-fleet-section .the-fleet-featured-item {
+	.the-fleet-featured-box .the-fleet-featured-item {
 	    text-align: center;
 	}
 
-	#the-fleet-section .the-fleet-featured-item .number {
+	.the-fleet-featured-box .the-fleet-featured-item .number {
 	    margin-bottom: 10px;
 	}
 
-	#the-fleet-section .the-fleet-featured-item {
+	.the-fleet-featured-box .the-fleet-featured-item {
 	    margin-bottom: 50px;
 	}
 
@@ -381,7 +405,7 @@
 	    padding: 20px 0 25px;
 	}
 
-	.image-style-box {
+	#pets-heighlight-section .image-style-box {
 		margin-top: 0;
 		position: initial;
 		max-width: 500px;
@@ -393,7 +417,7 @@
 		padding: 50px;
 	}
 
-	.image-style-box .image-style-image {
+	#pets-heighlight-section .image-style-box .image-style-image {
 		position: initial;
 		margin-top: 25px;
 	}
@@ -493,6 +517,296 @@
 	#pc-12-compare-section .image-box {
 		width: 100%;
 		height: 500px;
+	}
+
+	#pc12-intro-section {
+		padding: 50px 0;
+	}
+
+	#pc12-performance-section .image-box, #pc12-interior-section .image-box {
+		width: 100%;
+		height: 500px;
+	}
+
+	#pc12-performance-section .contents-box {
+		width: 100%;
+		padding: 50px;
+	}
+
+	#pc12-interior-section .contents-box {
+		width: 100%;
+		padding: 50px;
+		text-align: left;
+	}
+
+	#cabin-layout-section {
+	    padding: 38px 0 10px;
+	}
+
+	#cabin-layout-section .image-box {
+		margin-bottom: 50px;
+	}
+
+	#cabin-configurations-section {
+	    padding: 62px 0 54px;
+	}
+
+	#cabin-configurations-section .section-header-primary {
+	    margin-bottom: 30px;
+	}
+
+	#cabin-configurations-section .cabin-configurations-item {
+	    padding: 40px 15px 45px;
+	}
+
+	#cabin-configurations-section .cabin-configurations-item p {
+	    margin-bottom: 35px;
+	}
+
+	#why-pc12-section {
+	    padding: 58px 0 45px;
+	}
+
+	#life-saver-section {
+	    padding: 170px 0 25px;
+	}
+
+	#life-saver-section .logo-box {
+		margin-top: 40px;
+		max-width: 100%;
+	}
+
+	#cta-tertiary-section {
+	    padding: 45px 0 75px;
+	}
+
+	#about-heighlight-section .image-style-box {
+		max-width: 500px;
+		margin: 0 auto;
+		display: block;
+	}
+
+	#about-heighlight-section .about-heighlight-box {
+		width: 100%;
+		padding: 18px 20px 51px 20px;
+	}
+
+	#about-heighlight-section .about-heighlight-box ul li {
+		margin-bottom: 15px;
+	}
+
+	#about-heighlight-section .image-style-box .image-style-image {
+		position: initial;
+		margin-top: 25px;
+	}
+
+	#cargo-intro-section .section-header-secondary h1 {
+	    margin-bottom: 20px;
+	}
+
+	#about-intro-section {
+	    padding: 35px 0 50px;
+	}
+
+	#who-we-are .bg-color {
+	    padding: 55px 0 60px;
+	}
+
+	#who-we-are .section-header-secondary h3 {
+	    margin-bottom: 16px;
+	}
+
+	#who-we-are .quote-box {
+	    padding-top: 38px;
+	}
+
+	#about-message-section {
+	    padding: 50px 0 45px;
+	}
+
+	#about-heighlight-section {
+	    padding: 20px 0 30px;
+	}
+
+	#about-started-section .about-start-box {
+	    padding: 30px 0 25px;
+	}
+
+	#about-started-section .contents-item img {
+	    margin-bottom: 25px;
+	}
+
+	#about-started-section .contents-item {
+	    margin-bottom: 30px;
+	}
+
+	#about-different-section {
+		padding: 80px 0;
+	}
+
+	#fly7-section .fly7-section-box {
+	    padding: 25px;
+	}
+
+	#environment-section {
+	    padding: 52px 0 19px;
+	}
+
+	#environment-section .enviroment-box img {
+	    margin-bottom: 16px;
+	}
+
+	#environment-section .enviroment-box h3 {
+	    margin-bottom: 15px;
+	}
+
+	#environment-section .enviroment-box {
+	    padding-bottom: 37px;
+	    margin-bottom: 28px;
+	}
+
+	#investors-intro-section {
+	    padding: 30px 0 40px;
+	}
+
+	#did-you-know-section .bg-color {
+	    padding: 50px 0;
+	}
+
+	#oh-doc-section {
+	    padding: 50px 0 60px;
+	}
+
+	#oh-doc-section h3 {
+	    margin-bottom: 30px;
+	}
+
+	#investors-heighlight-section {
+	    padding: 20px 0 45px;
+	}
+
+	#investors-heighlight-section .image-style-box {
+	    margin-top: 0;
+	}
+
+	#investors-heighlight-section .investors-heighlight-box {
+	    width: 100%;
+	    padding: 25px;
+	}
+
+	#investors-heighlight-section .investors-heighlight-box img {
+	    margin-bottom: 20px;
+	}
+
+	#investors-heighlight-section .image-style-box .image-style-image {
+	    position: initial;
+		margin-top: 25px;
+	}
+
+	#investors-featured-section {
+	    padding: 45px 0 25px;
+	}
+
+	#use-aircraft-section {
+	    padding: 55px 0 25px;
+	}
+
+	#investors-compare-section {
+	    padding: 25px 0 60px;
+	}
+
+	#key-advantages-section .bg-color {
+	    padding: 60px 0 50px;
+	}
+
+	#how-it-work-intro {
+	    padding: 30px 0 0;
+	}
+
+	#how-it-work-heighlight-section .image-style-box {
+	    margin-top: 50px;
+	}
+
+	#how-it-work-heighlight-section .heighlight-box {
+	    width: 100%;
+	    padding: 25px;
+	}
+
+	#how-it-work-heighlight-section .image-style-box .image-style-image {
+	    position: initial;
+		margin-top: 25px;
+	}
+
+	#work-details-section {
+	    padding: 60px 0 40px;
+	}
+
+	#how-it-work-cta-section {
+	    padding: 80px 0 60px;
+	}
+
+	#how-it-work-cta-section .booking-box h3 {
+	    margin-bottom: 25px;
+	}
+
+	#blog-section aside {
+		margin-top: 50px;
+	    margin-left: 0;
+	}
+
+	#blog-section aside h3 {
+	    margin-bottom: 30px;
+	}
+
+	#blog-section aside .popular-item {
+	    margin-bottom: 30px;
+	}
+
+	#single-post-section .back-link {
+	    margin-left: 0;
+	    margin-bottom: 15px;
+	}
+
+	#single-post-section .post-contents-box {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	#single-post-section .post-share-box {
+		width: 100%;
+	}
+
+	#single-post-section .post-share-box ul {
+		margin: 0;
+	}
+
+	#single-post-section .post-share-box ul li {
+		display: inline-block;
+		margin-right: 15px;
+	}
+
+	#single-post-section {
+	    padding: 15px 0 25px;
+	}
+
+	#single-post-section article .category {
+	    margin-bottom: 15px;
+	}
+
+	#single-post-section article {
+	    margin-bottom: 50px;
+	}
+
+	#single-post-section .related-posts-box h3 {
+		margin-bottom: 30px;
+	}
+
+	#single-post-section .related-posts-box .post-item {
+	    margin-bottom: 25px;
+	}
+
+	#single-post-section .related-posts-box .post-item img {
+	    margin-bottom: 15px;
 	}
 }
 
